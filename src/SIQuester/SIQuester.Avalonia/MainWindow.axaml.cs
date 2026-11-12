@@ -16,6 +16,17 @@ public partial class MainWindow : Window
             Opened += async (_, _) =>
             {
                 await Task.Delay(4000);
+                if (Environment.GetEnvironmentVariable("SIQ_NEWTEST") == "1" && DataContext is MainViewModel mn)
+                {
+                    mn.New.Execute(null);
+                    await Task.Delay(1000);
+                    var shotNew = shot.Replace(".png", "_new.png");
+                    { using var b0 = new global::Avalonia.Media.Imaging.RenderTargetBitmap(new global::Avalonia.PixelSize((int)Bounds.Width, (int)Bounds.Height)); b0.Render(this); b0.Save(shotNew); }
+                    ((NewViewModel)mn.DocList.Last()).Create.Execute(null);
+                    await Task.Delay(1500);
+                    Console.WriteLine($"docs={mn.DocList.Count} last={mn.DocList.Last().GetType().Name} active={mn.ActiveDocument?.Header}");
+                    if (mn.ActiveDocument is { } nd) { nd.Package.AddRound.Execute(null); var r0 = nd.Package.Rounds.Last(); r0.AddTheme.Execute(null); r0.Themes.Last().AddQuestion.Execute(null); r0.IsExpanded = true; r0.Themes.Last().IsExpanded = true; }
+                }
                 if (Environment.GetEnvironmentVariable("SIQ_SELFTEST") == "1" && DataContext is MainViewModel m && m.ActiveDocument is { } d)
                 {
                     d.Package.AddRound.Execute(null);

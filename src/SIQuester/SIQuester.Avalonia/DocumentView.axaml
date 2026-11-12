@@ -36,8 +36,10 @@
             </TextBlock>
           </TreeDataTemplate>
           <TreeDataTemplate DataType="vm:ThemeViewModel" ItemsSource="{Binding Questions}">
-            <TextBlock Text="{Binding Model.Name}">
-              <TextBlock.ContextMenu>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+              <TextBlock Text="{Binding Model.Name}" VerticalAlignment="Center" />
+              <Button Content="+" Padding="7,0" MinHeight="22" Command="{Binding AddQuestion}" ToolTip.Tip="Добавить вопрос" />
+              <StackPanel.ContextMenu>
                 <ContextMenu>
                   <MenuItem Header="＋ Вопрос" Command="{Binding AddQuestion}" />
                   <MenuItem Header="＋ Пустой вопрос" Command="{Binding AddEmptyQuestion}" />
@@ -46,8 +48,8 @@
                   <MenuItem Header="⧉ Клонировать" Command="{Binding Clone}" />
                   <MenuItem Header="🗑 Удалить" Command="{Binding Remove}" />
                 </ContextMenu>
-              </TextBlock.ContextMenu>
-            </TextBlock>
+              </StackPanel.ContextMenu>
+            </StackPanel>
           </TreeDataTemplate>
           <DataTemplate DataType="vm:QuestionViewModel">
             <TextBlock Text="{Binding Model.Price}">

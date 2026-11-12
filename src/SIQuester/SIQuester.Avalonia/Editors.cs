@@ -122,8 +122,6 @@ internal sealed class Editors
         Add(Ui.Caption("Название")); Add(Ui.Text(t.Model, "Name"));
         Add(Ui.Section("Вопросы"));
         Add(Ui.Wrap(
-            Ui.Cmd("＋ Вопрос", t.AddQuestion),
-            Ui.Cmd("＋ Пустой вопрос", t.AddEmptyQuestion),
             Ui.Cmd("↕ Сортировать по цене", t.SortQuestions),
             Ui.Cmd("🔀 Перемешать", t.ShuffleQuestions),
             Ui.Cmd("⧉ Клонировать тему", t.Clone),
