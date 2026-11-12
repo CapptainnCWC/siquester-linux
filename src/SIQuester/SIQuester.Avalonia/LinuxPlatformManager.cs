@@ -167,7 +167,11 @@ internal sealed class LinuxPlatformManager : PlatformManager, IPlatformService
         return result;
     });
 
-    public override IEnumerable<string>? AskTags(ItemsViewModel<string> tags) => null;
+    public override IEnumerable<string>? AskTags(ItemsViewModel<string> tags)
+    {
+        var text = AskText("Теги через запятую", false);
+        return text == null ? null : text.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+    }
 
     public override IFlowDocumentWrapper BuildDocument(SIDocument doc, ExportFormats format) =>
         throw new NotSupportedException("Document export is not available in the Linux build.");

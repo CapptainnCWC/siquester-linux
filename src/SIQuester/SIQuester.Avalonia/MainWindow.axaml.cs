@@ -15,7 +15,35 @@ public partial class MainWindow : Window
         {
             Opened += async (_, _) =>
             {
-                await Task.Delay(6000);
+                await Task.Delay(4000);
+                if (Environment.GetEnvironmentVariable("SIQ_SELFTEST") == "1" && DataContext is MainViewModel m && m.ActiveDocument is { } d)
+                {
+                    d.Package.AddRound.Execute(null);
+                    var round = d.Package.Rounds.Last();
+                    round.Model.Name = "Раунд из теста";
+                    round.AddTheme.Execute(null);
+                    var theme = round.Themes.Last();
+                    theme.Model.Name = "Тема из теста";
+                    theme.AddQuestion.Execute(null);
+                    theme.AddQuestion.Execute(null);
+                    var q = theme.Questions.Last();
+                    q.Right.AddItem.Execute("Ответ из теста");
+                    Console.WriteLine($"rounds={d.Package.Rounds.Count} themes={round.Themes.Count} questions={theme.Questions.Count}");
+                    round.IsExpanded = true; theme.IsExpanded = true; q.IsSelected = true;
+                    d.ActiveNode = q;
+                    await d.Save.ExecuteAsync(null);
+                    Console.WriteLine("saved");
+                    await Task.Delay(1500);
+                }
+                if (Environment.GetEnvironmentVariable("SIQ_SELECT") is { } sel && DataContext is MainViewModel m2 && m2.ActiveDocument is { } d2)
+                {
+                    var ix = sel.Split(',').Select(int.Parse).ToArray();
+                    var rr = d2.Package.Rounds[ix[0]]; rr.IsExpanded = true;
+                    var tt = rr.Themes[ix[1]]; tt.IsExpanded = true;
+                    tt.Questions[ix[2]].IsSelected = true;
+                    await Task.Delay(1500);
+                }
+                await Task.Delay(2000);
                 var size = new global::Avalonia.PixelSize((int)Bounds.Width, (int)Bounds.Height);
                 using var bmp = new global::Avalonia.Media.Imaging.RenderTargetBitmap(size);
                 bmp.Render(this);
