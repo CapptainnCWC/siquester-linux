@@ -1,0 +1,48 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SIQuester.ViewModel"
+        xmlns:av="using:SIQuester.Avalonia"
+        x:Class="SIQuester.Avalonia.MainWindow"
+        Title="SIQuester" Width="1200" Height="750" Background="#262624" Icon="avares://SIQuester/Assets/siquester.png">
+  <DockPanel>
+    <Grid DockPanel.Dock="Top" ColumnDefinitions="*,Auto">
+    <Menu>
+      <MenuItem Header="_Файл">
+        <MenuItem Header="_Новый" Command="{Binding New}" HotKey="Ctrl+N" />
+        <MenuItem Header="_Открыть…" Command="{Binding Open}" HotKey="Ctrl+O" />
+        <MenuItem Header="_Сохранить" Click="Save_Click" HotKey="Ctrl+S" />
+        <MenuItem Header="Сохранить _как…" Click="SaveAs_Click" />
+        <MenuItem Header="Сохранить все" Command="{Binding SaveAll}" />
+        <Separator />
+        <MenuItem Header="В_ыход" Click="Exit_Click" />
+      </MenuItem>
+      <MenuItem Header="_Правка">
+        <MenuItem Header="Отменить" Click="Undo_Click" HotKey="Ctrl+Z" />
+        <MenuItem Header="Повторить" Click="Redo_Click" HotKey="Ctrl+Y" />
+      </MenuItem>
+      <MenuItem Header="_Справка">
+        <MenuItem Header="Справка" Command="{Binding Help}" />
+        <MenuItem Header="Проверить обновления…" Click="Update_Click" />
+        <MenuItem Header="О программе" Command="{Binding About}" />
+      </MenuItem>
+    </Menu>
+    <Button Grid.Column="1" Content="⟳ Обновить" Click="Update_Click" Margin="0,2,8,2" Padding="10,3" />
+    </Grid>
+
+    <TabControl ItemsSource="{Binding DocList}" x:Name="Tabs">
+      <TabControl.ItemTemplate>
+        <DataTemplate>
+          <StackPanel Orientation="Horizontal" Spacing="6">
+            <TextBlock Text="{Binding Header}" VerticalAlignment="Center" />
+            <Button Content="✕" Padding="4,0" Command="{Binding Close}" />
+          </StackPanel>
+        </DataTemplate>
+      </TabControl.ItemTemplate>
+      <TabControl.ContentTemplate>
+        <DataTemplate>
+          <av:WorkspaceView />
+        </DataTemplate>
+      </TabControl.ContentTemplate>
+    </TabControl>
+  </DockPanel>
+</Window>

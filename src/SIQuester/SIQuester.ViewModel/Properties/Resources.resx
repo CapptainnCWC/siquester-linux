@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About the program</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>Add a question</value>
+  </data>
+  <data name="AddRound" xml:space="preserve">
+    <value>Add a round</value>
+  </data>
+  <data name="AddTheme" xml:space="preserve">
+    <value>Add a theme</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="ApiKeyNotSet" xml:space="preserve">
+    <value>API key not set</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="AudioIsNotOnBackground" xml:space="preserve">
+    <value>Audio file {0} is not set as a background</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Authors" xml:space="preserve">
+    <value>Authors</value>
+  </data>
+  <data name="AuthorSiteUrl" xml:space="preserve">
+    <value>https://vk.com/si_game</value>
+  </data>
+  <data name="BaseAuthors" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="BasedOnExamples" xml:space="preserve">
+    <value>based on the following examples</value>
+  </data>
+  <data name="BaseSources" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="CannotCreateTemporaryFile" xml:space="preserve">
+    <value>Cannot create temporary file. Try to turn off antivirus software</value>
+  </data>
+  <data name="CannotEnableQuality" xml:space="preserve">
+    <value>Cannot enable package quality control because of the errors:</value>
+  </data>
+  <data name="Championship" xml:space="preserve">
+    <value>Championship</value>
+  </data>
+  <data name="ChangeGroupIsActivated" xml:space="preserve">
+    <value>changeGroup is already activated!</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommonTag" xml:space="preserve">
+    <value>General knowledge</value>
+  </data>
+  <data name="CommonTags" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="ConfirmFilesRemoval" xml:space="preserve">
+    <value>Do you really want to delete all unused media files in the package?</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Conversion error</value>
+  </data>
+  <data name="CreateTopicPrompt" xml:space="preserve">
+    <value>Create topic {0} with {1} questions</value>
+  </data>
+  <data name="DBStorage" xml:space="preserve">
+    <value>Question database</value>
+  </data>
+  <data name="DBStorageComment" xml:space="preserve">
+    <value>The package is stored in the Database {0} under the name {1}</value>
+  </data>
+  <data name="DefaultGPTPrompt" xml:space="preserve">
+    <value>Create quiz questions that are precise, factually valid, with exactly one unambiguous answer. Prefer "unknown about known" style—obscure facts about familiar subjects—when naturally appropriate.
+
+## Question Format
+- **Structure**: Up to 5 very short sentences stating ONLY facts as descriptive clues. **NEVER end with "Name the X," "Who is it?," "What is it?," "Identify the X," or any similar direct question.** These imperatives are FORBIDDEN. The target must be clear from context alone.
+- **Language**: Simple, clear. NO expressive adjectives ("famous," "iconic," "outstanding," "thrilling," "remarkable," "untold"). No promotional language.
+- **Difficulty Scaling**:
+  - **1-2**: Well-known, easily recognizable facts
+  - **3**: Moderately obscure details
+  - **4-5**: Genuinely obscure, lesser-known facts that require deeper knowledge
+- **Clarity**: From context alone, it must be obvious what object/property/person to guess WITHOUT any closing question.
+- **Focus**: Each question must identify a DIFFERENT answer within the topic.
+
+## Answers
+- **Text answers**: Up to 5 words. Leave options field empty.
+- **Multiple choice**: List 4-5 options in the options field (without letter prefixes). Provide only the correct letter (A, B, C, D, or E) as the answer.
+- **Hard questions (4+)**: Prefer text answers over multiple choice. Still prefer unknown facts and well-known answers.
+- Question text should not include the answer or its parts
+
+## Comments
+Include ONLY when the answer genuinely needs clarification that isn't obvious from the question.
+
+**NEVER include comments that:**
+- Repeat facts from the question or answer
+- State well-known or obvious information
+- Add promotional/expressive language
+- Simply restate what was already said differently
+
+**DO include comments when:**
+- The connection between clues and answer requires non-obvious context
+- Technical terminology needs brief explanation
+- Historical nuance genuinely affects understanding
+
+Keep to 7-10 words maximum. Most questions should have NO comment.
+
+## Sources
+
+### When Sources Are Required:
+Every question which contains specific, verifiable claims that must be validated. Even seemingly obvious facts need citation to ensure accuracy.
+
+### Source Requirements:
+1. **Acceptable sources**: Wikipedia, Fandom wikis (for games/media), official websites, .gov, .edu, IGN/GameFAQs (for games), IMDb (for movies/TV), reputable databases
+2. **MANDATORY VALIDATION PROCESS** - Before including ANY source:
+   - Open the URL in your browser
+   - Verify the page loads successfully (no 404, no errors)
+   - Confirm the SPECIFIC fact from your question appears on that page
+   - Ensure the source directly supports your claim
+3. **If validation fails**: Reformulate the question using information you CAN verify, or choose a different fact
+4. **Use specific section links** when possible (e.g., https://example.com/page#Section_Name)
+5. **Fan sites**: Only use if they're well-established (e.g., Zelda Wiki, Bulbapedia, Wookieepedia) and you've verified the link works
+
+### What Needs Sources:
+- Game-specific facts (item locations, character names, boss strategies)
+- Movie/TV details (release dates, character names, plot points)
+- Book information (publication dates, character details)
+- Historical facts (dates, events, quotes)
+- Statistics and numbers
+- ANY specific factual claim
+
+## Format Requirements
+Every question must include:
+- Question text (descriptive clues only, no direct questions at the end)
+- Options field (only for multiple choice - list options without letters, empty for text answers)
+- Answer (letter for multiple choice, text for open-ended)
+- Source (when needed)
+- Comment (only when genuinely needed - most questions should omit this)
+
+## Examples
+
+**Good Example - Video Game:**
+Question: Plays several melodies on a blue wind instrument. Used to travel and shift time. Given by the princess in the castle.
+Answer: Ocarina of Time
+Source: https://zelda.fandom.com/wiki/Ocarina_of_Time_(Item)
+
+**Good Example - Movie:**
+Question: This 1999 film features a red pill and a blue pill choice. Neo discovers reality is a computer simulation. Directed by the Wachowskis.
+Answer: The Matrix
+Source: https://en.wikipedia.org/wiki/The_Matrix
+
+**Good Example - Music:**
+Question: Released in 1991, this grunge anthem begins with a distinctive guitar riff. Kurt Cobain wrote it about teenage rebellion. Became Nirvana's signature song.
+Answer: Smells Like Teen Spirit
+Source: https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit
+
+**Good Example - Science (Multiple Choice):**
+Question: This element's symbol is O. Essential for breathing. Makes up about 21% of Earth's atmosphere.
+Options: Gold, Oxygen, Tin, Mercury
+Answer: B
+Source: https://en.wikipedia.org/wiki/Oxygen
+
+**Good Example - History (With Comment):**
+Question: His final words requested opening the second shutter for more light.
+Answer: Johann Wolfgang von Goethe
+Comment: Deathbed request documented by witnesses present
+Source: https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#Death
+
+**Good Example - Food &amp; Drink:**
+Question: Italian coffee drink made by adding hot water to espresso. Name means "American" in Italian. Created as a way to dilute espresso for American soldiers.
+Answer: Americano
+Source: https://en.wikipedia.org/wiki/Caff%C3%A8_Americano
+
+**Bad Example - No Source:**
+Question: First dungeon boss inside the Great Deku Tree. Large arachnid with a single glaring eye.
+Answer: Queen Gohma
+❌ WRONG - Missing required source
+
+**Bad Example - Unvalidated Source:**
+Question: This 2010 sci-fi film explores dreams within dreams.
+Answer: Inception
+Source: https://www.broken-movie-site.com/inception-facts
+❌ WRONG - This URL doesn't exist (not validated)
+
+**Bad Example - All Same Answer:**
+Question 1: This composer wrote The Magic Flute. Answer: Mozart
+Question 2: This composer died at age 35. Answer: Mozart
+Question 3: This composer was born in Salzburg. Answer: Mozart
+❌ WRONG - All answers identical; each must be unique
+
+**Bad Example - Trivial Comment:**
+Question: Bonjour means hello in this tongue.
+Answer: French
+Comment: French is spoken in France
+❌ WRONG - Comment states obvious information
+
+**Bad Example - Direct Question at End:**
+Question: Italian coffee drink made by adding hot water to espresso. **What is this drink called?**
+❌ FORBIDDEN - Never use "Name the X," "Who is it?," "What is it?," "Identify X," or any imperative/question at the end
+
+**Bad Example - Another Direct Question:**
+Question: Released in 1991, this grunge anthem became Nirvana's signature song. **Name the song.**
+❌ FORBIDDEN - End with facts only: "Released in 1991, this grunge anthem begins with a distinctive guitar riff. Kurt Cobain wrote it about teenage rebellion."
+
+---
+
+## CRITICAL CHECKLIST (Review Before Submitting):
+
+1. ✓ **Opened each URL to verify it works and contains the fact?**
+2. ✓ **Each question has a different answer?**
+3. ✓ **Comments omitted unless genuinely clarifying?**
+4. ✓ **NO "Name the X," "Who is it?," "What is it?," or ANY question/imperative at end of clues?**
+5. ✓ **Questions end with factual statements ONLY?**
+6. ✓ **Hard questions (4-5) use genuinely obscure facts?**
+7. ✓ **Simple language without promotional adjectives?**
+8. ✓ **Multiple choice questions include the options list?**
+
+**If any checklist item fails, revise before submitting.**</value>
+  </data>
+  <data name="DefaultGTPTopicGeneration" xml:space="preserve">
+    <value>Generate simple, catchy quiz-topic name (2–4 words) for provided categories, similar to collection names, book/movie titles, or short cites/catchphrases. Avoid long or overly complex themes.
+
+Requirements
+
+- 2–4 words long
+- Snappy, memorable, and fun, or some collection name
+- Works as a trivia category title
+- Accessible to a general audience
+- Has light, game-show energy
+- Never reuse topics from previous generations
+
+Style
+
+- Use a single unified style:
+- Either straightforward or creative, depending on what fits the category
+- Can be direct, playful, quirky, or pop‑culture‑inspired
+- Still must remain short, clear, and trivia‑friendly
+
+Avoid
+
+- "Famous X", "Best X", "Top X"
+- Long descriptive themes
+- Repeating the same structure too often
+
+Examples:
+
+Guess the City
+Hidden Meanings
+Movie OST
+Childhood Games
+Cartoon Voices
+Pocket Worlds
+Childhood Games
+Movie OST
+Memes
+Monuments
+GTA San Andreas
+Voice Acting
+To be or not to be
+
+Add a ~5-word comment ONLY if the topic name is ambiguous (e.g., "Who is the culprit?" needs "Name the murderer from the novel").</value>
+  </data>
+  <data name="DefaultTags" xml:space="preserve">
+    <value>Cars
+Alphabet
+Anime
+Astronomy
+Biology
+Geography
+Games: Consoles, Soundtracks, Board games
+Art
+History
+Movies: Directors, Actors, Awards
+Books: Comics
+Memes
+Mathematics
+Music: Rock, Pop, Rap, Jazz, Metal, Electronic, Covers, Classical music
+Cartoons
+Rebuses
+Comics
+TV series
+Mixed (hodgepodge)
+Sports: Football
+TV
+Science fiction
+Physics
+Chemistry
+Erudition: Intellectual games, Politics, Personalities
+Humor</value>
+  </data>
+  <data name="DocumentLoading" xml:space="preserve">
+    <value>Document loading</value>
+  </data>
+  <data name="DocumentSavingError" xml:space="preserve">
+    <value>Document save error</value>
+  </data>
+  <data name="DocxFiles" xml:space="preserve">
+    <value>DOCX Documents</value>
+  </data>
+  <data name="DoYouWantToSave" xml:space="preserve">
+    <value>Package {0} has been modified. Do you want to save it?</value>
+  </data>
+  <data name="Editors" xml:space="preserve">
+    <value>Editors</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Untitled</value>
+  </data>
+  <data name="EmptyValue" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="EnumerationError" xml:space="preserve">
+    <value>An error in numbering was found in the next topic. It is expected that the text of all questions in each topic starts with a number, sequentially increasing from question to question</value>
+  </data>
+  <data name="ErrorInsertingBindedQuestion" xml:space="preserve">
+    <value>Attempt to insert a linked question!</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExportAndPrint" xml:space="preserve">
+    <value>export and print</value>
+  </data>
+  <data name="ExportMedia" xml:space="preserve">
+    <value>Media export</value>
+  </data>
+  <data name="ExportMediaError" xml:space="preserve">
+    <value>Media export error</value>
+  </data>
+  <data name="ExportTableHeader" xml:space="preserve">
+    <value>Export to table format</value>
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>export to HTML</value>
+  </data>
+  <data name="ExportToHtmlHeader" xml:space="preserve">
+    <value>SIGame questions</value>
+  </data>
+  <data name="ExportToSns" xml:space="preserve">
+    <value>Export to CNS format</value>
+  </data>
+  <data name="ExportToSteam" xml:space="preserve">
+    <value>Export to Steam</value>
+  </data>
+  <data name="ExportToSteamEmptyQuestion" xml:space="preserve">
+    <value>Question is empty</value>
+  </data>
+  <data name="ExportToSteamEmptyRound" xml:space="preserve">
+    <value>Empty round name</value>
+  </data>
+  <data name="ExportToSteamEmptyTheme" xml:space="preserve">
+    <value>Empty theme name</value>
+  </data>
+  <data name="ExportToSteamNoAnswer" xml:space="preserve">
+    <value>Question answer is empty</value>
+  </data>
+  <data name="ExportToSteamNoQuestions" xml:space="preserve">
+    <value>Package has no questions</value>
+  </data>
+  <data name="ExportToSteamQualityControlDisabled" xml:space="preserve">
+    <value>Enable package quality control</value>
+  </data>
+  <data name="ExternalLinksAreForbidden" xml:space="preserve">
+    <value>External links are not allowed</value>
+  </data>
+  <data name="FailedToParseGPTResponse" xml:space="preserve">
+    <value>Failed to parse GPT response</value>
+  </data>
+  <data name="FewQuestions" xml:space="preserve">
+    <value>Insufficient number of questions</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>(file…)</value>
+  </data>
+  <data name="FileInMultipleCategories" xml:space="preserve">
+    <value>File {0} is contained in the package in different categories!</value>
+  </data>
+  <data name="FileIsDuplicated" xml:space="preserve">
+    <value>File {0} is contained in the package twice!</value>
+  </data>
+  <data name="FileIsReadOnly" xml:space="preserve">
+    <value>The file is read-only!</value>
+  </data>
+  <data name="FileOpenError" xml:space="preserve">
+    <value>File open error</value>
+  </data>
+  <data name="FilesDownloaded" xml:space="preserve">
+    <value>Files downloaded: {0}</value>
+  </data>
+  <data name="FileSearch" xml:space="preserve">
+    <value>File search</value>
+  </data>
+  <data name="FileSizeLimitExceed" xml:space="preserve">
+    <value>The file size exceeds the allowable value for playing through the Game server ({0} MB)!</value>
+  </data>
+  <data name="Final" xml:space="preserve">
+    <value>FINAL</value>
+  </data>
+  <data name="FinalName" xml:space="preserve">
+    <value>FINAL</value>
+  </data>
+  <data name="FragmentNotFound" xml:space="preserve">
+    <value>The next template fragment was not found: {0}</value>
+  </data>
+  <data name="Futher" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="GameNumber" xml:space="preserve">
+    <value>GAME {0}</value>
+  </data>
+  <data name="GamePackageTooLarge" xml:space="preserve">
+    <value>File size exceeds 100 MB!</value>
+  </data>
+  <data name="GPTCategories" xml:space="preserve">
+    <value>Alphabet|Anime|Animals &amp; Nature|Architecture &amp; Design|Art|Astronomy|Biology|Books &amp; Literature|Cars|Cartoons|Celebrities &amp; Pop Culture|Chemistry|Comics|Cooking &amp; Food|Erudition &amp; Intellectual Games|Fashion &amp; Beauty|Games (Board, Video, Esports)|Geography &amp; Travel|History|Humor|Internet Culture &amp; Memes|Language &amp; Words|Mathematics|Mixed|Movies &amp; Cinema|Music|Mythology &amp; Folklore|Photography &amp; Sculpture|Physics|Politics (light / trivia-level)|Rebuses &amp; Puzzles|Science (General)|Science Fiction|Sports|Technology &amp; Gadgets|TV &amp; Streaming</value>
+  </data>
+  <data name="GPTCreateTopicFinalRoundPrompt" xml:space="preserve">
+    <value>Generate topic {0} with {1} hard quiz question that requires some time to think, some knowledge and maybe guessing. Each question has 4-5 sentences. The answer should be known for general audience. Add several clues, so the answering should not be a raw knowledge/guess</value>
+  </data>
+  <data name="GPTTopisHint" xml:space="preserve">
+    <value>Generate {0} unique topics for the following categories</value>
+  </data>
+  <data name="HasUpdates" xml:space="preserve">
+    <value>Updates were found for the program from {0}. Download them now?</value>
+  </data>
+  <data name="HowToUseApp" xml:space="preserve">
+    <value>How to use the program</value>
+  </data>
+  <data name="Html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="HtmlFiles" xml:space="preserve">
+    <value>HTML Files</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="InColumn" xml:space="preserve">
+    <value>In a column</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="InitialUpload" xml:space="preserve">
+    <value>Initial upload</value>
+  </data>
+  <data name="InputMediaUri" xml:space="preserve">
+    <value>Enter the address of the multimedia object</value>
+  </data>
+  <data name="InstallError" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="InvalidFileExtension" xml:space="preserve">
+    <value>File {0} has invalid extension {1}. Expected one of {2}</value>
+  </data>
+  <data name="InvalidFileSize" xml:space="preserve">
+    <value>File {0} exceeds maximum size {1} MB</value>
+  </data>
+  <data name="InvalidUpdateHandle" xml:space="preserve">
+    <value>Invalid update handle</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>REMAINDER</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>(link…)</value>
+  </data>
+  <data name="LoadingWorkshopItems" xml:space="preserve">
+    <value>Loading Workshop items</value>
+  </data>
+  <data name="LocalProgramName" xml:space="preserve">
+    <value>SIQuester</value>
+  </data>
+  <data name="LostFile" xml:space="preserve">
+    <value>Save the unprocessed part of the file to:</value>
+  </data>
+  <data name="MediaFileExtensionIsNotRecommended" xml:space="preserve">
+    <value>Multimedia file extension is not among recommended ones ({0})!</value>
+  </data>
+  <data name="MediaFileSizeExceedsRecommendedValue" xml:space="preserve">
+    <value>Multimedia file size exceeds recommended value ({0} MB)!</value>
+  </data>
+  <data name="MircAudio" xml:space="preserve">
+    <value>audio</value>
+  </data>
+  <data name="MircImage" xml:space="preserve">
+    <value>image</value>
+  </data>
+  <data name="MircVideo" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="MissingFile" xml:space="preserve">
+    <value>Missing file</value>
+  </data>
+  <data name="MissingLink" xml:space="preserve">
+    <value>Missing link</value>
+  </data>
+  <data name="MissingLogoFile" xml:space="preserve">
+    <value>Package logo: file {0} is missing!</value>
+  </data>
+  <data name="NameOfPackage" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="NewLine" xml:space="preserve">
+    <value>Line break</value>
+  </data>
+  <data name="NewPackage" xml:space="preserve">
+    <value>New package</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoAnswer" xml:space="preserve">
+    <value>Correct answer is missing</value>
+  </data>
+  <data name="NoAuthorName" xml:space="preserve">
+    <value>Author's name is not entered!</value>
+  </data>
+  <data name="NoAuthors" xml:space="preserve">
+    <value>Authors are missing</value>
+  </data>
+  <data name="NoPackageName" xml:space="preserve">
+    <value>Package name is not entered!</value>
+  </data>
+  <data name="NoQuestion" xml:space="preserve">
+    <value>Question text is missing</value>
+  </data>
+  <data name="NoQuestionsFound" xml:space="preserve">
+    <value>No questions were found in the input file! Note that questions must have a cost multiple of 10, and each question must start on a new line.</value>
+  </data>
+  <data name="NoQuestionsToGenerate" xml:space="preserve">
+    <value>No questions to generate</value>
+  </data>
+  <data name="NoRiskQuestion" xml:space="preserve">
+    <value>For yourself</value>
+  </data>
+  <data name="NoSource" xml:space="preserve">
+    <value>Source is missing</value>
+  </data>
+  <data name="NotAQuestionNumber" xml:space="preserve">
+    <value>This number is not a question cost</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Please CAREFULLY familiarize yourself with the proposed format. Note that errors when reading a file may occur even due to the absence of a line break symbol or a space.</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="NumOfQuests" xml:space="preserve">
+    <value>Question count</value>
+  </data>
+  <data name="NumOfRounds" xml:space="preserve">
+    <value>Round count</value>
+  </data>
+  <data name="NumOfThemes" xml:space="preserve">
+    <value>Theme count</value>
+  </data>
+  <data name="ObjectInNewFormat" xml:space="preserve">
+    <value>Object is created in new format and could not be added to current package</value>
+  </data>
+  <data name="ObjectNotFound" xml:space="preserve">
+    <value>The next object was not found: {0}</value>
+  </data>
+  <data name="OfThemes" xml:space="preserve">
+    <value>themes</value>
+  </data>
+  <data name="OpenAutosaveFolder" xml:space="preserve">
+    <value>Open autosave folder</value>
+  </data>
+  <data name="OpenLogsFolder" xml:space="preserve">
+    <value>Open log folder</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="OtherTypeQuestion" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="PackageClassicDescription" xml:space="preserve">
+    <value>The same package as in the SIGame TV analogue</value>
+  </data>
+  <data name="PackageClassicName" xml:space="preserve">
+    <value>Standard SIGame package</value>
+  </data>
+  <data name="PackageCorruptedHint" xml:space="preserve">
+    <value>The question file is damaged! Try to extract data from it using an archiver (opening it as an archive)</value>
+  </data>
+  <data name="PackageCorruptedHintAutoSave" xml:space="preserve">
+    <value>or retrieve data from autosave</value>
+  </data>
+  <data name="PackageCorruptedHintLogs" xml:space="preserve">
+    <value>If it does not work, send the logs to the program author so that the problem can be avoided in the future.</value>
+  </data>
+  <data name="PackageDemoDescription" xml:space="preserve">
+    <value>Package that shows different game features</value>
+  </data>
+  <data name="PackageDemoName" xml:space="preserve">
+    <value>Demo package</value>
+  </data>
+  <data name="PackageEmptyDescription" xml:space="preserve">
+    <value>Package without initial content</value>
+  </data>
+  <data name="PackageEmptyName" xml:space="preserve">
+    <value>Empty package</value>
+  </data>
+  <data name="PackageInNewFormat" xml:space="preserve">
+    <value>Package is created in new format and could not be added to current</value>
+  </data>
+  <data name="PackageServerFull" xml:space="preserve">
+    <value>currently, there is no space on the server to accept new packages</value>
+  </data>
+  <data name="PackageSpecialDescription" xml:space="preserve">
+    <value>Package with custom count of rounds, themes or questions</value>
+  </data>
+  <data name="PackageSpecialName" xml:space="preserve">
+    <value>Custom package</value>
+  </data>
+  <data name="PackageThemesCollectionDescription" xml:space="preserve">
+    <value>A single round with themes</value>
+  </data>
+  <data name="PackageThemesCollectionName" xml:space="preserve">
+    <value>Theme collection</value>
+  </data>
+  <data name="PhraseTemplates" xml:space="preserve">
+    <value>The input text does not match the template below. Please correct the template, after which the analysis of the input file will continue. Besides, you can simply correct the input text. Problem:</value>
+  </data>
+  <data name="Played" xml:space="preserve">
+    <value>Played</value>
+  </data>
+  <data name="PreviewUpload" xml:space="preserve">
+    <value>Preview upload</value>
+  </data>
+  <data name="PreviewUploadError" xml:space="preserve">
+    <value>Failed to submit Workshop preview</value>
+  </data>
+  <data name="PreviewUploadSuccess" xml:space="preserve">
+    <value>Preview uploaded successfully</value>
+  </data>
+  <data name="ProgramName" xml:space="preserve">
+    <value>SIQuester</value>
+  </data>
+  <data name="QAnswer" xml:space="preserve">
+    <value>Answer to the question</value>
+  </data>
+  <data name="QText" xml:space="preserve">
+    <value>Question text</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="QuestionCount" xml:space="preserve">
+    <value>Question count</value>
+  </data>
+  <data name="QuestionForAll" xml:space="preserve">
+    <value>For all</value>
+  </data>
+  <data name="QuestionPlay" xml:space="preserve">
+    <value>Question playback</value>
+  </data>
+  <data name="RemoveTemplateConfirm" xml:space="preserve">
+    <value>Do you really want to delete template "{0}"?</value>
+  </data>
+  <data name="Rest" xml:space="preserve">
+    <value>REMAINDER</value>
+  </data>
+  <data name="RestoreConfirmation" xml:space="preserve">
+    <value>Files have been detected that were not correctly saved during the last work with the program. Restore them?</value>
+  </data>
+  <data name="Restriction" xml:space="preserve">
+    <value>Restriction</value>
+  </data>
+  <data name="RightAnswer" xml:space="preserve">
+    <value>Right answer</value>
+  </data>
+  <data name="Round" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="RoundNameTemplate" xml:space="preserve">
+    <value>Round {0}</value>
+  </data>
+  <data name="RtfFiles" xml:space="preserve">
+    <value>RTF Documents</value>
+  </data>
+  <data name="SaveFile" xml:space="preserve">
+    <value>The original file has been modified. Save it?</value>
+  </data>
+  <data name="SecretNoQuestion" xml:space="preserve">
+    <value>With secret without a question</value>
+  </data>
+  <data name="SecretPublicPrice" xml:space="preserve">
+    <value>With secret and cost announced before giving</value>
+  </data>
+  <data name="SecretQuestion" xml:space="preserve">
+    <value>With secret</value>
+  </data>
+  <data name="SendPackageErrorHeader" xml:space="preserve">
+    <value>Failed to send the package</value>
+  </data>
+  <data name="SendPackageSuccess" xml:space="preserve">
+    <value>Package successfully sent!</value>
+  </data>
+  <data name="SendToGame" xml:space="preserve">
+    <value>Sending the package to the computer game</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="SIGameQuestions" xml:space="preserve">
+    <value>SIGame questions</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="SimpleQuestion" xml:space="preserve">
+    <value>With button</value>
+  </data>
+  <data name="SIQuestions" xml:space="preserve">
+    <value>SI questions</value>
+  </data>
+  <data name="SIStorage" xml:space="preserve">
+    <value>SIGame Question Library</value>
+  </data>
+  <data name="SkipPart" xml:space="preserve">
+    <value>Unrecognized text chunk will be added to the comments for the theme</value>
+  </data>
+  <data name="SkipTitle" xml:space="preserve">
+    <value>Unrecognized text chunk will be added to the comments for the package</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="SourceFail" xml:space="preserve">
+    <value>In the original text, reading ended where the text highlighting ends.</value>
+  </data>
+  <data name="Sources" xml:space="preserve">
+    <value>Sources</value>
+  </data>
+  <data name="Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="SplittingError" xml:space="preserve">
+    <value>Error searching for questions</value>
+  </data>
+  <data name="StakeAllQuestion" xml:space="preserve">
+    <value>For all with stake</value>
+  </data>
+  <data name="StakeQuestion" xml:space="preserve">
+    <value>With stake</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartingUpload" xml:space="preserve">
+    <value>Starting upload...</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="SteamNotRunning" xml:space="preserve">
+    <value>Steam is not running. Export is not possible</value>
+  </data>
+  <data name="SteamResultFail" xml:space="preserve">
+    <value>Unknown error</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>The input file has been completely read! The entire file header is placed in the package comments. Please sort its content yourself. Total imported themes:</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="TemplateName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="TemplateWithThisNameAlreadyExists" xml:space="preserve">
+    <value>Template with this name already exists!</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextFiles" xml:space="preserve">
+    <value>Text files</value>
+  </data>
+  <data name="TextImport" xml:space="preserve">
+    <value>Import text</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="ThemesCollection" xml:space="preserve">
+    <value>Theme collection</value>
+  </data>
+  <data name="ThemesSelection" xml:space="preserve">
+    <value>theme selection</value>
+  </data>
+  <data name="ThinkAll" xml:space="preserve">
+    <value>Think!</value>
+  </data>
+  <data name="ToBase" xml:space="preserve">
+    <value>Export to Question Base</value>
+  </data>
+  <data name="TotalImport" xml:space="preserve">
+    <value>Total themes imported:</value>
+  </data>
+  <data name="Tour" xml:space="preserve">
+    <value>Tour</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="Trash" xml:space="preserve">
+    <value>Trash</value>
+  </data>
+  <data name="TxtFilesFilter" xml:space="preserve">
+    <value>Question files (*.txt) | *.txt</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Not recognized:</value>
+  </data>
+  <data name="UndoError" xml:space="preserve">
+    <value>Error canceling the operation. Contact the developer.</value>
+  </data>
+  <data name="UnreadTemplate" xml:space="preserve">
+    <value>Unmatched template</value>
+  </data>
+  <data name="Unrecognized" xml:space="preserve">
+    <value>There is unrecognized text</value>
+  </data>
+  <data name="UnsupportedFragment" xml:space="preserve">
+    <value>Unsupported fragment: {0}</value>
+  </data>
+  <data name="UnsupportedVersion" xml:space="preserve">
+    <value>Package version {0} is not supported. Maximum supported version is {1}</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Nameless</value>
+  </data>
+  <data name="UnusedFile" xml:space="preserve">
+    <value>File {0} is not used. Delete it</value>
+  </data>
+  <data name="UploadError" xml:space="preserve">
+    <value>Error during upload</value>
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
+    <value>Workshop item created successfully</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="WorkshopItemCreationError" xml:space="preserve">
+    <value>Failed to create Workshop item</value>
+  </data>
+  <data name="WorkshopItemsLoadError" xml:space="preserve">
+    <value>Workshop items load error</value>
+  </data>
+  <data name="WorkshopItemUpdate" xml:space="preserve">
+    <value>Item update</value>
+  </data>
+  <data name="WrongBrackets" xml:space="preserve">
+    <value>Incorrect bracket placement</value>
+  </data>
+  <data name="XmlFilesFilter" xml:space="preserve">
+    <value>Question files (.xml) | *.xml</value>
+  </data>
+  <data name="XpsFiles" xml:space="preserve">
+    <value>XPS documents</value>
+  </data>
+  <data name="YamlFiles" xml:space="preserve">
+    <value>YAML files</value>
+  </data>
+  <data name="YamlFilesFilter" xml:space="preserve">
+    <value>YAML files (.yaml) | *.yaml</value>
+  </data>
+  <data name="YourAnswer" xml:space="preserve">
+    <value>Your answer?</value>
+  </data>
+  <data name="YourThemes" xml:space="preserve">
+    <value>Your themes:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="EmptyPreviewWarning" xml:space="preserve">
+    <value>You package lacks preview image</value>
+  </data>
+</root>

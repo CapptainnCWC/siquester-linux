@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Зачёт</value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>Добавить вопрос</value>
+  </data>
+  <data name="AddRound" xml:space="preserve">
+    <value>Добавить раунд</value>
+  </data>
+  <data name="AddTheme" xml:space="preserve">
+    <value>Добавить тему</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>и</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Ответ</value>
+  </data>
+  <data name="ApiKeyNotSet" xml:space="preserve">
+    <value>Не задан ключ API</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>Аудио</value>
+  </data>
+  <data name="AudioIsNotOnBackground" xml:space="preserve">
+    <value>Аудио файл {0} не указан как фоновый</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="Authors" xml:space="preserve">
+    <value>Авторы</value>
+  </data>
+  <data name="AuthorSiteUrl" xml:space="preserve">
+    <value>https://vk.com/si_game</value>
+  </data>
+  <data name="BaseAuthors" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="BasedOnExamples" xml:space="preserve">
+    <value>основанную на следующих примерах</value>
+  </data>
+  <data name="BaseSources" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="CannotCreateTemporaryFile" xml:space="preserve">
+    <value>Не удалось создать временный файл. Попробуйте отключить антивирус</value>
+  </data>
+  <data name="CannotEnableQuality" xml:space="preserve">
+    <value>Невозможно включить контроль качества из-за ошибок:</value>
+  </data>
+  <data name="Championship" xml:space="preserve">
+    <value>Чемпионат</value>
+  </data>
+  <data name="ChangeGroupIsActivated" xml:space="preserve">
+    <value>changeGroup уже активирована!</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="CommonTag" xml:space="preserve">
+    <value>Общие знания</value>
+  </data>
+  <data name="CommonTags" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="ConfirmFilesRemoval" xml:space="preserve">
+    <value>Вы действительно хотите удалить все неиспользуемые в пакете медиафайлы</value>
+  </data>
+  <data name="ConversionError" xml:space="preserve">
+    <value>Ошибка конвертации</value>
+  </data>
+  <data name="CreateTopicPrompt" xml:space="preserve">
+    <value>Создай тему {0} с {1} вопросами</value>
+  </data>
+  <data name="DBStorage" xml:space="preserve">
+    <value>База вопросов</value>
+  </data>
+  <data name="DBStorageComment" xml:space="preserve">
+    <value>Пакет хранится в Базе {0} под именем {1}</value>
+  </data>
+  <data name="DefaultGPTPrompt" xml:space="preserve">
+    <value># Создавайте вопросы викторины, которые точны, фактически верны, с ровно одним недвусмысленным ответом. Предпочитайте стиль "неизвестное об известном" — малоизвестные факты о знакомых предметах — когда это естественно уместно.
+
+## Формат вопроса
+- **Структура**: До 5 очень коротких предложений, содержащих ТОЛЬКО факты в качестве описательных подсказок. **НИКОГДА не заканчивайте "Назовите X," "Кто это?," "Что это?," "Определите X," или любым подобным прямым вопросом.** Эти императивы ЗАПРЕЩЕНЫ. Цель должна быть ясна только из контекста.
+- **Язык**: Простой, ясный. НИКАКИХ выразительных прилагательных ("знаменитый," "культовый," "выдающийся," "захватывающий," "замечательный," "невероятный"). Никакого рекламного языка.
+- **Шкала сложности**:
+  - **1-2**: Хорошо известные, легко узнаваемые факты
+  - **3**: Умеренно малоизвестные детали
+  - **4-5**: Действительно малоизвестные, менее известные факты, требующие более глубоких знаний
+- **Ясность**: Только из контекста должно быть очевидно, какой объект/свойство/человека нужно угадать БЕЗ какого-либо заключительного вопроса.
+- **Фокус**: Каждый вопрос должен определять РАЗНЫЙ ответ в рамках темы.
+
+## Ответы
+- **Текстовые ответы**: До 5 слов. Оставьте поле options пустым.
+- **Множественный выбор**: Перечислите 4-5 вариантов в поле options (без буквенных префиксов). Укажите только правильную букву (A, B, C, D или E) в качестве ответа.
+- **Сложные вопросы (4+)**: Предпочитайте текстовые ответы множественному выбору. По-прежнему предпочитайте неизвестные факты и хорошо известные ответы.
+- Текст вопроса не должен содержать ответ или его части
+
+## Комментарии
+Включайте ТОЛЬКО когда ответ действительно нуждается в разъяснении, которое не очевидно из вопроса.
+
+**НИКОГДА не включайте комментарии, которые:**
+- Повторяют факты из вопроса или ответа
+- Излагают хорошо известную или очевидную информацию
+- Добавляют рекламный/выразительный язык
+- Просто переформулируют уже сказанное по-другому
+
+**ВКЛЮЧАЙТЕ комментарии когда:**
+- Связь между подсказками и ответом требует неочевидного контекста
+- Техническая терминология нуждается в кратком объяснении
+- Исторические нюансы действительно влияют на понимание
+
+Ограничьтесь максимум 7-10 словами. Большинство вопросов должны НЕ иметь комментария.
+
+## Источники
+
+### Когда источники необходимы:
+Каждый вопрос, который содержит конкретные, проверяемые утверждения, которые должны быть подтверждены. Даже кажущиеся очевидными факты нуждаются в цитировании для обеспечения точности.
+
+### Требования к источникам:
+1. **Приемлемые источники**: Wikipedia, Fandom вики (для игр/медиа), официальные сайты, .gov, .edu, IGN/GameFAQs (для игр), IMDb (для фильмов/ТВ), авторитетные базы данных
+2. **ОБЯЗАТЕЛЬНЫЙ ПРОЦЕСС ПРОВЕРКИ** - Перед включением ЛЮБОГО источника:
+   - Откройте URL в браузере
+   - Проверьте, что страница успешно загружается (нет 404, нет ошибок)
+   - Подтвердите, что КОНКРЕТНЫЙ факт из вашего вопроса присутствует на этой странице
+   - Убедитесь, что источник непосредственно подтверждает ваше утверждение
+3. **Если проверка не удалась**: Переформулируйте вопрос, используя информацию, которую вы МОЖЕТЕ проверить, или выберите другой факт
+4. **Используйте ссылки на конкретные разделы** когда возможно (например, https://example.com/page#Section_Name)
+5. **Фанатские сайты**: Используйте только если они хорошо известны (например, Zelda Wiki, Bulbapedia, Wookieepedia) и вы проверили, что ссылка работает
+
+### Что нуждается в источниках:
+- Факты о конкретных играх (расположение предметов, имена персонажей, стратегии боссов)
+- Детали фильмов/ТВ (даты выпуска, имена персонажей, сюжетные моменты)
+- Информация о книгах (даты публикации, детали о персонажах)
+- Исторические факты (даты, события, цитаты)
+- Статистика и числа
+- ЛЮБОЕ конкретное фактическое утверждение
+
+## Требования к формату
+Каждый вопрос должен включать:
+- Текст вопроса (только описательные подсказки, никаких прямых вопросов в конце)
+- Поле options (только для множественного выбора - перечислите варианты без букв, пусто для текстовых ответов)
+- Ответ (буква для множественного выбора, текст для открытых)
+- Источник (когда необходимо)
+- Комментарий (только когда действительно необходимо - большинство вопросов должны опускать это)
+
+## Примеры
+
+**Хороший пример - Видеоигра:**
+Вопрос: Исполняет несколько мелодий на синем духовом инструменте. Используется для путешествий и изменения времени. Дарится принцессой в замке.
+Ответ: Ocarina of Time
+Источник: https://zelda.fandom.com/wiki/Ocarina_of_Time_(Item)
+
+**Хороший пример - Фильм:**
+Вопрос: Этот фильм 1999 года показывает выбор между красной и синей таблеткой. Нео обнаруживает, что реальность — компьютерная симуляция. Режиссёры — Вачовски.
+Ответ: Матрица
+Источник: https://en.wikipedia.org/wiki/The_Matrix
+
+**Хороший пример - Музыка:**
+Вопрос: Выпущен в 1991 году, этот гранж-гимн начинается с характерного гитарного риффа. Курт Кобейн написал его о подростковом бунте. Стал визитной карточкой Nirvana.
+Ответ: Smells Like Teen Spirit
+Источник: https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit
+
+**Хороший пример - Наука (Множественный выбор):**
+Вопрос: Символ этого элемента — O. Необходим для дыхания. Составляет около 21% атмосферы Земли.
+Варианты: Золото, Кислород, Олово, Ртуть
+Ответ: B
+Источник: https://en.wikipedia.org/wiki/Oxygen
+
+**Хороший пример - История (С комментарием):**
+Вопрос: Его последние слова содержали просьбу открыть вторую ставню для большего света.
+Ответ: Иоганн Вольфганг фон Гёте
+Комментарий: Просьба на смертном одре задокументирована присутствовавшими свидетелями
+Источник: https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#Death
+
+**Хороший пример - Еда и напитки:**
+Вопрос: Итальянский кофейный напиток, приготовленный добавлением горячей воды к эспрессо. Название означает "американский" по-итальянски. Создан как способ разбавить эспрессо для американских солдат.
+Ответ: Американо
+Источник: https://en.wikipedia.org/wiki/Caff%C3%A8_Americano
+
+**Плохой пример - Нет источника:**
+Вопрос: Первый босс подземелья внутри Великого Дерева Деку. Крупный паукообразный с одним пристальным глазом.
+Ответ: Queen Gohma
+❌ НЕПРАВИЛЬНО - Отсутствует необходимый источник
+
+**Плохой пример - Непроверенный источник:**
+Вопрос: Этот научно-фантастический фильм 2010 года исследует сны внутри снов.
+Ответ: Начало
+Источник: https://www.broken-movie-site.com/inception-facts
+❌ НЕПРАВИЛЬНО - Этот URL не существует (не проверен)
+
+**Плохой пример - Все одинаковые ответы:**
+Вопрос 1: Этот композитор написал "Волшебную флейту". Ответ: Моцарт
+Вопрос 2: Этот композитор умер в возрасте 35 лет. Ответ: Моцарт
+Вопрос 3: Этот композитор родился в Зальцбурге. Ответ: Моцарт
+❌ НЕПРАВИЛЬНО - Все ответы идентичны; каждый должен быть уникальным
+
+**Плохой пример - Тривиальный комментарий:**
+Вопрос: Bonjour означает "здравствуйте" на этом языке.
+Ответ: Французский
+Комментарий: На французском говорят во Франции
+❌ НЕПРАВИЛЬНО - Комментарий излагает очевидную информацию
+
+**Плохой пример - Прямой вопрос в конце:**
+Вопрос: Итальянский кофейный напиток, приготовленный добавлением горячей воды к эспрессо. **Как называется этот напиток?**
+❌ ЗАПРЕЩЕНО - Никогда не используйте "Назовите X," "Кто это?," "Что это?," "Определите X," или любой императив/вопрос в конце
+
+**Плохой пример - Другой прямой вопрос:**
+Вопрос: Выпущен в 1991 году, этот гранж-гимн стал визитной карточкой Nirvana. **Назовите песню.**
+❌ ЗАПРЕЩЕНО - Заканчивайте только фактами: "Выпущен в 1991 году, этот гранж-гимн начинается с характерного гитарного риффа. Курт Кобейн написал его о подростковом бунте."
+
+---
+
+## КРИТИЧЕСКИЙ КОНТРОЛЬНЫЙ СПИСОК (Проверьте перед отправкой):
+
+1. ✓ **Открыли каждый URL, чтобы проверить, что он работает и содержит факт?**
+2. ✓ **У каждого вопроса разный ответ?**
+3. ✓ **Комментарии опущены, если они не разъясняют действительно необходимое?**
+4. ✓ **НИКАКИХ "Назовите X," "Кто это?," "Что это?," или ЛЮБОГО вопроса/императива в конце подсказок?**
+5. ✓ **Вопросы заканчиваются ТОЛЬКО фактическими утверждениями?**
+6. ✓ **Сложные вопросы (4-5) используют действительно малоизвестные факты?**
+7. ✓ **Простой язык без рекламных прилагательных?**
+8. ✓ **Вопросы с множественным выбором включают список вариантов?**
+
+**Если какой-либо пункт контрольного списка не выполнен, пересмотрите перед отправкой.**</value>
+  </data>
+  <data name="DefaultGTPTopicGeneration" xml:space="preserve">
+    <value>Сгенерируйте простое, запоминающееся название темы для викторины (2–4 слова) по заданной категории, похожее на названия подборок, книг/фильмов или короткие цитаты/слоганы. Избегайте длинных или слишком сложных тем.
+
+Требования
+
+2–4 слова
+Яркое, запоминающееся, звучит как название подборки
+Подходит для категории викторины
+Понятно широкой аудитории
+Лёгкая, «игровая» энергия
+Не повторять темы из предыдущих генераций
+
+Стиль
+
+Единый стиль: прямой или креативный — что лучше подходит
+Можно использовать игру слов или намёки на поп-культуру
+Но название должно быть коротким, ясным и удобным для викторины
+
+Избегать
+
+«Известные Х», «Лучшие Х», «Топ Х»
+Длинных описательных тем
+Частого повторения одной структуры
+
+Примеры:
+
+Угадай город
+Скрытые смыслы
+Музыка из фильма
+Игры детства
+Голоса мультфильмов
+Карманные миры
+Мемы
+Памятники
+ГТА Сан-Андреас
+Озвучка
+Быть или не быть
+
+Добавляйте комментарий на ~5 слов ТОЛЬКО если название неоднозначное (например, «Кто виновен?» требует пояснения «Угадать убийцу из романа»).</value>
+  </data>
+  <data name="DefaultTags" xml:space="preserve">
+    <value>Автомобили|Cars
+Алфавит|Alphabet
+Аниме|Anime
+Астрономия|Astronomy
+Биология|Biology
+География|Geography
+Игры|Games: Консоли|Consoles, Саундтреки|Soundtracks, Настольные игры|Board games
+Искусство|Art
+История|History
+Кино|Movies: Режиссёры|Directors, Актёры|Actors, Премии|Awards
+Книги|Books: Комиксы|Comics
+Мемы|Memes
+Математика|Mathematics
+Музыка|Music: Рок|Rock, Поп|Pop, Рэп|Rap, Джаз|Jazz, Металл|Metal, Электроника|Electronic, Каверы|Covers, Русская музыка, Классическая музыка|Classical music
+Мультфильмы|Cartoons
+Ребусы|Rebuses
+Комиксы|Comics
+Сериалы|TV series
+Смешанная (солянка)| Mixed (hodgepodge)
+Спорт|Sports: Футбол|Football
+ТВ|TV
+Фантастика|Science fiction
+Физика|Physics
+Химия|Chemistry
+Эрудиция|Erudition: ЧГК|Intellectual games, Политика|Politics, Личности|Personalities
+Юмор|Humor</value>
+  </data>
+  <data name="DocumentLoading" xml:space="preserve">
+    <value>Загрузка документа</value>
+  </data>
+  <data name="DocumentSavingError" xml:space="preserve">
+    <value>Ошибка сохранения документа</value>
+  </data>
+  <data name="DocxFiles" xml:space="preserve">
+    <value>Документы DOCX</value>
+  </data>
+  <data name="DoYouWantToSave" xml:space="preserve">
+    <value>Пакет {0} был изменён. Вы хотите сохранить его?</value>
+  </data>
+  <data name="Editors" xml:space="preserve">
+    <value>Редакторы</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Без имени</value>
+  </data>
+  <data name="EmptyValue" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="EnumerationError" xml:space="preserve">
+    <value>В следующей теме обнаружена ошибка нумерации. Ожидается, что текст всех вопросов в каждой теме начинается с номера, последовательно возрастающего от вопроса к вопросу.
+УБЕДИТЕСЬ, что в тексте нет номеров в начале строки помимо стоимостей вопросов. При необходимости удалите, перенесите или пропустите их</value>
+  </data>
+  <data name="ErrorInsertingBindedQuestion" xml:space="preserve">
+    <value>Попытка вставить привязанный вопрос!</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ExportAndPrint" xml:space="preserve">
+    <value>экспорт и печать</value>
+  </data>
+  <data name="ExportMedia" xml:space="preserve">
+    <value>Экспорт медиа</value>
+  </data>
+  <data name="ExportMediaError" xml:space="preserve">
+    <value>Ошибка экспорта медиа</value>
+  </data>
+  <data name="ExportTableHeader" xml:space="preserve">
+    <value>Экспорт в формат таблицы</value>
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>экспорт в HTML</value>
+  </data>
+  <data name="ExportToHtmlHeader" xml:space="preserve">
+    <value>Вопросы "SIGame"</value>
+  </data>
+  <data name="ExportToSns" xml:space="preserve">
+    <value>Экспорт в формат СНС</value>
+  </data>
+  <data name="ExportToSteam" xml:space="preserve">
+    <value>Экспорт в Steam</value>
+  </data>
+  <data name="ExportToSteamEmptyQuestion" xml:space="preserve">
+    <value>Вопрос без содержимого</value>
+  </data>
+  <data name="ExportToSteamEmptyRound" xml:space="preserve">
+    <value>Пустое имя раунда</value>
+  </data>
+  <data name="ExportToSteamEmptyTheme" xml:space="preserve">
+    <value>Пустое имя темы</value>
+  </data>
+  <data name="ExportToSteamNoAnswer" xml:space="preserve">
+    <value>Вопрос без ответа</value>
+  </data>
+  <data name="ExportToSteamNoQuestions" xml:space="preserve">
+    <value>Пакет не содержит вопросов</value>
+  </data>
+  <data name="ExportToSteamQualityControlDisabled" xml:space="preserve">
+    <value>Для экспорта в Steam необходимо включить контроль качества</value>
+  </data>
+  <data name="ExternalLinksAreForbidden" xml:space="preserve">
+    <value>Внешние ссылки не допускаются</value>
+  </data>
+  <data name="FailedToParseGPTResponse" xml:space="preserve">
+    <value>Не удалось разобрать ответ GPT</value>
+  </data>
+  <data name="FewQuestions" xml:space="preserve">
+    <value>Недостаточное число вопросов</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>(файл…)</value>
+  </data>
+  <data name="FileInMultipleCategories" xml:space="preserve">
+    <value>Файл {0} содержится в пакете в разных категориях!</value>
+  </data>
+  <data name="FileIsDuplicated" xml:space="preserve">
+    <value>Файл {0} содержится в пакете дважды!</value>
+  </data>
+  <data name="FileIsReadOnly" xml:space="preserve">
+    <value>Файл доступен только для чтения!</value>
+  </data>
+  <data name="FileOpenError" xml:space="preserve">
+    <value>Ошибка открытия файла</value>
+  </data>
+  <data name="FilesDownloaded" xml:space="preserve">
+    <value>Загружено файлов: {0}</value>
+  </data>
+  <data name="FileSearch" xml:space="preserve">
+    <value>Поиск файлов</value>
+  </data>
+  <data name="FileSizeLimitExceed" xml:space="preserve">
+    <value>Размер файла превышает допустимое значение для игры через Игровой сервер ({0} МБ)!</value>
+  </data>
+  <data name="Final" xml:space="preserve">
+    <value>ФИНАЛ</value>
+  </data>
+  <data name="FinalName" xml:space="preserve">
+    <value>ФИНАЛ</value>
+  </data>
+  <data name="FragmentNotFound" xml:space="preserve">
+    <value>Следующий фрагмент шаблона не обнаружен: {0}</value>
+  </data>
+  <data name="Futher" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="GameNumber" xml:space="preserve">
+    <value>ИГРА {0}</value>
+  </data>
+  <data name="GamePackageTooLarge" xml:space="preserve">
+    <value>Размер файла превышает 100 Мб!</value>
+  </data>
+  <data name="GPTCategories" xml:space="preserve">
+    <value>Автомобили|Алфавит|Аниме|Архитектура и дизайн|Астрономия|Биология|География и путешествия|Головоломки и ребусы|Животные и природа|Игры (настольные, видеоигры, киберспорт)|Интернет-культура и мемы|История|Кино и фильмы|Книги и литература|Комиксы|Кулинария и еда|Культура знаменитостей и поп-культура|Математика|Междисциплинарное (смешанное)|Мифология и фольклор|Музыка|Наука (общая)|Научная фантастика|Политика (лёгкий уровень)|Спорт|ТВ и стриминг|Творчество и искусство|Технологии и гаджеты|Физика|Фотография и скульптура|Химия|Юмор</value>
+  </data>
+  <data name="GPTCreateTopicFinalRoundPrompt" xml:space="preserve">
+    <value>Сгенерируй тему {0} с {1} сложным вопросом для викторины, который требует времени на размышление, определённых знаний и, возможно, догадки. Каждый вопрос должен состоять из 4–5 предложений. Ответ должен быть известен широкой аудитории. Добавь несколько подсказок, чтобы ответ не сводился к простому знанию факта или случайной догадке</value>
+  </data>
+  <data name="GPTTopisHint" xml:space="preserve">
+    <value>Сгенерируйте {0} уникальных тем. Используйте случайные числа</value>
+  </data>
+  <data name="HasUpdates" xml:space="preserve">
+    <value>Обнаружены обновления программы от {0}. Загрузить их сейчас?</value>
+  </data>
+  <data name="HowToUseApp" xml:space="preserve">
+    <value>Как использовать программу</value>
+  </data>
+  <data name="Html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="HtmlFiles" xml:space="preserve">
+    <value>Файлы HTML</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="InColumn" xml:space="preserve">
+    <value>В столбец</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="InitialUpload" xml:space="preserve">
+    <value>Начальная загрузка</value>
+  </data>
+  <data name="InputMediaUri" xml:space="preserve">
+    <value>Введите адрес мультимедиа-объекта</value>
+  </data>
+  <data name="InstallError" xml:space="preserve">
+    <value>Произошла ошибка</value>
+  </data>
+  <data name="InvalidFileExtension" xml:space="preserve">
+    <value>Расширение файла {0} ({1}) недопустимо. Допустимые расширения: {2}</value>
+  </data>
+  <data name="InvalidFileSize" xml:space="preserve">
+    <value>Размер файла {0} превышает допустимое значение {1} МБ</value>
+  </data>
+  <data name="InvalidUpdateHandle" xml:space="preserve">
+    <value>Неверный update handle</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>ОСТАТОК</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>(ссылка…)</value>
+  </data>
+  <data name="LoadingWorkshopItems" xml:space="preserve">
+    <value>Загрузка объектов Мастерской</value>
+  </data>
+  <data name="LocalProgramName" xml:space="preserve">
+    <value>SIQuester</value>
+  </data>
+  <data name="LostFile" xml:space="preserve">
+    <value>Сохранить необработанную часть файла в: </value>
+  </data>
+  <data name="MediaFileExtensionIsNotRecommended" xml:space="preserve">
+    <value>Расширение мультимедиа файла не относится к рекомендуемым ({0})!</value>
+  </data>
+  <data name="MediaFileSizeExceedsRecommendedValue" xml:space="preserve">
+    <value>Размер мультимедиа файла превышает рекомендуемое значение ({0} МБ)!</value>
+  </data>
+  <data name="MircAudio" xml:space="preserve">
+    <value>звук</value>
+  </data>
+  <data name="MircImage" xml:space="preserve">
+    <value>изображение</value>
+  </data>
+  <data name="MircVideo" xml:space="preserve">
+    <value>видео</value>
+  </data>
+  <data name="MissingFile" xml:space="preserve">
+    <value>Отсутствует файл</value>
+  </data>
+  <data name="MissingLink" xml:space="preserve">
+    <value>Отсутствует ссылка</value>
+  </data>
+  <data name="MissingLogoFile" xml:space="preserve">
+    <value>Логотип пакета: отсутствует файл {0}!</value>
+  </data>
+  <data name="NameOfPackage" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="NewLine" xml:space="preserve">
+    <value>Перевод строки</value>
+  </data>
+  <data name="NewPackage" xml:space="preserve">
+    <value>Новый пакет</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="NoAnswer" xml:space="preserve">
+    <value>Отсутствует правильный ответ</value>
+  </data>
+  <data name="NoAuthorName" xml:space="preserve">
+    <value>Не введено имя автора!</value>
+  </data>
+  <data name="NoAuthors" xml:space="preserve">
+    <value>Отсутствуют авторы</value>
+  </data>
+  <data name="NoPackageName" xml:space="preserve">
+    <value>Не введено имя пакета!</value>
+  </data>
+  <data name="NoQuestion" xml:space="preserve">
+    <value>Отсутствует текст вопроса</value>
+  </data>
+  <data name="NoQuestionsFound" xml:space="preserve">
+    <value>Во входном файле не обнаружены вопросы! Учтите, что вопросы должны иметь стоимость, кратную 10, и каждый вопрос должен начинаться с новой строки.</value>
+  </data>
+  <data name="NoQuestionsToGenerate" xml:space="preserve">
+    <value>Нет вопросов для генерации</value>
+  </data>
+  <data name="NoRiskQuestion" xml:space="preserve">
+    <value>Для себя</value>
+  </data>
+  <data name="NoSource" xml:space="preserve">
+    <value>Отсутствует источник</value>
+  </data>
+  <data name="NotAQuestionNumber" xml:space="preserve">
+    <value>Это число не является стоимостью вопроса</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Просьба ВНИМАТЕЛЬНО ознакомиться с предложенным форматом. Учтите, что ошибки при прочтении файла могут возникать даже из-за отсутствия символа перевода строки или пробела</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="NumOfQuests" xml:space="preserve">
+    <value>Число вопросов</value>
+  </data>
+  <data name="NumOfRounds" xml:space="preserve">
+    <value>Число раундов</value>
+  </data>
+  <data name="NumOfThemes" xml:space="preserve">
+    <value>Число тем</value>
+  </data>
+  <data name="ObjectInNewFormat" xml:space="preserve">
+    <value>Объект создан в новом формате и не может быть присоединён к данному пакету</value>
+  </data>
+  <data name="ObjectNotFound" xml:space="preserve">
+    <value>Следующий объект не обнаружен: {0}</value>
+  </data>
+  <data name="OfThemes" xml:space="preserve">
+    <value>тем</value>
+  </data>
+  <data name="OpenAutosaveFolder" xml:space="preserve">
+    <value>Открыть папку автосохранений</value>
+  </data>
+  <data name="OpenLogsFolder" xml:space="preserve">
+    <value>Открыть папку с логами</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="OtherTypeQuestion" xml:space="preserve">
+    <value>Другой</value>
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Пакет</value>
+  </data>
+  <data name="PackageClassicDescription" xml:space="preserve">
+    <value>Такой же пакет, как и в Телевизионном аналоге SIGame</value>
+  </data>
+  <data name="PackageClassicName" xml:space="preserve">
+    <value>Стандартный пакет для SIGame</value>
+  </data>
+  <data name="PackageCorruptedHint" xml:space="preserve">
+    <value>Файл с вопросами повреждён! Попробуйте извлечь данные из него при помощи архиватора (открыв его как архив)</value>
+  </data>
+  <data name="PackageCorruptedHintAutoSave" xml:space="preserve">
+    <value>или получить данные из автосохранения</value>
+  </data>
+  <data name="PackageCorruptedHintLogs" xml:space="preserve">
+    <value>Если не получится, отправьте автору программы логи, чтобы можно было избежать проблемы в будущем</value>
+  </data>
+  <data name="PackageDemoDescription" xml:space="preserve">
+    <value>Пакет, показывающий различные возможности игры</value>
+  </data>
+  <data name="PackageDemoName" xml:space="preserve">
+    <value>Демонстрационный пакет</value>
+  </data>
+  <data name="PackageEmptyDescription" xml:space="preserve">
+    <value>Пакет, изначально ничего не содержащий</value>
+  </data>
+  <data name="PackageEmptyName" xml:space="preserve">
+    <value>Пустой пакет</value>
+  </data>
+  <data name="PackageInNewFormat" xml:space="preserve">
+    <value>Пакет создан в новом формате и не может быть присоединён к данному</value>
+  </data>
+  <data name="PackageServerFull" xml:space="preserve">
+    <value>в настоящий момент на сервере нет места для принятия новых пакетов</value>
+  </data>
+  <data name="PackageSpecialDescription" xml:space="preserve">
+    <value>Пакет, содержащий какое-то иное число раундов, тем или вопросов, чем в стандартной SIGame</value>
+  </data>
+  <data name="PackageSpecialName" xml:space="preserve">
+    <value>Нестандартный пакет</value>
+  </data>
+  <data name="PackageThemesCollectionDescription" xml:space="preserve">
+    <value>Просто набор тем</value>
+  </data>
+  <data name="PackageThemesCollectionName" xml:space="preserve">
+    <value>Коллекция тем</value>
+  </data>
+  <data name="PhraseTemplates" xml:space="preserve">
+    <value>Входной текст не соответствует нижеприведённому шаблону. Пожалуйста, поправьте шаблон, после чего анализ входного файла продолжится. Кроме того, вы всего-навсего можете поправить входной текст. Проблема:</value>
+  </data>
+  <data name="Played" xml:space="preserve">
+    <value>Играно</value>
+  </data>
+  <data name="PreviewUpload" xml:space="preserve">
+    <value>Отправка превью</value>
+  </data>
+  <data name="PreviewUploadError" xml:space="preserve">
+    <value>Ошибка отправки превью</value>
+  </data>
+  <data name="PreviewUploadSuccess" xml:space="preserve">
+    <value>Превью успешно отправлено</value>
+  </data>
+  <data name="ProgramName" xml:space="preserve">
+    <value>SIQuester</value>
+  </data>
+  <data name="QAnswer" xml:space="preserve">
+    <value>Ответ на вопрос</value>
+  </data>
+  <data name="QText" xml:space="preserve">
+    <value>Текст вопроса</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="QuestionCount" xml:space="preserve">
+    <value>Число вопросов</value>
+  </data>
+  <data name="QuestionForAll" xml:space="preserve">
+    <value>Для всех</value>
+  </data>
+  <data name="QuestionPlay" xml:space="preserve">
+    <value>Проигрывание вопроса</value>
+  </data>
+  <data name="RemoveTemplateConfirm" xml:space="preserve">
+    <value>Вы действительно хотите удалить шаблон "{0}"?</value>
+  </data>
+  <data name="Rest" xml:space="preserve">
+    <value>ОСТАТОК</value>
+  </data>
+  <data name="RestoreConfirmation" xml:space="preserve">
+    <value>Обнаружены файлы, которые не были корректно сохранены при последней работе с программой. Восстановить их?</value>
+  </data>
+  <data name="Restriction" xml:space="preserve">
+    <value>Ограничение</value>
+  </data>
+  <data name="RightAnswer" xml:space="preserve">
+    <value>Правильный ответ</value>
+  </data>
+  <data name="Round" xml:space="preserve">
+    <value>Раунд</value>
+  </data>
+  <data name="RoundNameTemplate" xml:space="preserve">
+    <value>{0}-й раунд</value>
+  </data>
+  <data name="RtfFiles" xml:space="preserve">
+    <value>Документы RTF</value>
+  </data>
+  <data name="SaveFile" xml:space="preserve">
+    <value>Оригинальный файл был изменён. Сохранить его?</value>
+  </data>
+  <data name="SecretNoQuestion" xml:space="preserve">
+    <value>С секретом без вопроса</value>
+  </data>
+  <data name="SecretPublicPrice" xml:space="preserve">
+    <value>С секретом и стоимостью, объявляемой до передачи</value>
+  </data>
+  <data name="SecretQuestion" xml:space="preserve">
+    <value>С секретом</value>
+  </data>
+  <data name="SendPackageErrorHeader" xml:space="preserve">
+    <value>Не удалось отправить пакет</value>
+  </data>
+  <data name="SendPackageSuccess" xml:space="preserve">
+    <value>Пакет успешно отправлен!</value>
+  </data>
+  <data name="SendToGame" xml:space="preserve">
+    <value>Отправка пакета в компьютерную игру</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="SIGameQuestions" xml:space="preserve">
+    <value>Вопросы SIGame</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="SimpleQuestion" xml:space="preserve">
+    <value>С кнопкой</value>
+  </data>
+  <data name="SIQuestions" xml:space="preserve">
+    <value>Вопросы СИ</value>
+  </data>
+  <data name="SIStorage" xml:space="preserve">
+    <value>Библиотека вопросов SIGame</value>
+  </data>
+  <data name="SkipPart" xml:space="preserve">
+    <value>Нераспознанный кусок текста будет добавлен в комментарии к теме</value>
+  </data>
+  <data name="SkipTitle" xml:space="preserve">
+    <value>Нераспознанный кусок текста будет добавлен в комментарии к пакету</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="SourceFail" xml:space="preserve">
+    <value>В оригинальном тексте чтение закончилось там, где заканчивается подсветка текста.</value>
+  </data>
+  <data name="Sources" xml:space="preserve">
+    <value>Источники</value>
+  </data>
+  <data name="Space" xml:space="preserve">
+    <value>Пробел</value>
+  </data>
+  <data name="SplittingError" xml:space="preserve">
+    <value>Ошибка при поиске вопросов</value>
+  </data>
+  <data name="StakeAllQuestion" xml:space="preserve">
+    <value>Для всех со ставкой</value>
+  </data>
+  <data name="StakeQuestion" xml:space="preserve">
+    <value>Со ставкой</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="StartingUpload" xml:space="preserve">
+    <value>Загрузка началась...</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="SteamNotRunning" xml:space="preserve">
+    <value>Steam не запущен. Экспорт невозможен</value>
+  </data>
+  <data name="SteamResultFail" xml:space="preserve">
+    <value>Неизвестная ошибка</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Входной файл считан полностью! Весь заголовок файла помещён в комментарии к пакету. Просьба самостоятельно рассортировать его содержимое. Всего импортировано тем:</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Теги</value>
+  </data>
+  <data name="TemplateName" xml:space="preserve">
+    <value>Имя шаблона</value>
+  </data>
+  <data name="TemplateWithThisNameAlreadyExists" xml:space="preserve">
+    <value>Шаблон с таким именем уже существует!</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="TextFiles" xml:space="preserve">
+    <value>Текстовые файлы</value>
+  </data>
+  <data name="TextImport" xml:space="preserve">
+    <value>Импорт текста</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="ThemesCollection" xml:space="preserve">
+    <value>Коллекция тем</value>
+  </data>
+  <data name="ThemesSelection" xml:space="preserve">
+    <value>выбор тем</value>
+  </data>
+  <data name="ThinkAll" xml:space="preserve">
+    <value>Думайте!</value>
+  </data>
+  <data name="ToBase" xml:space="preserve">
+    <value>Экспорт в Базу Вопросов</value>
+  </data>
+  <data name="TotalImport" xml:space="preserve">
+    <value>Всего импортировано тем:</value>
+  </data>
+  <data name="Tour" xml:space="preserve">
+    <value>Тур</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Трансформация</value>
+  </data>
+  <data name="Trash" xml:space="preserve">
+    <value>Мусор</value>
+  </data>
+  <data name="TxtFilesFilter" xml:space="preserve">
+    <value>Файлы вопросов (*.txt) | *.txt</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Не распознано:</value>
+  </data>
+  <data name="UndoError" xml:space="preserve">
+    <value>Ошибка отмены операции. Обратитесь к разработчику.</value>
+  </data>
+  <data name="UnreadTemplate" xml:space="preserve">
+    <value>Не подошедший шаблон</value>
+  </data>
+  <data name="Unrecognized" xml:space="preserve">
+    <value>Имеется нераспознанный текст</value>
+  </data>
+  <data name="UnsupportedFragment" xml:space="preserve">
+    <value>Неподдерживаемый фрагмент: {0}</value>
+  </data>
+  <data name="UnsupportedVersion" xml:space="preserve">
+    <value>Версия пакета {0} не поддерживается. Максимальная поддерживаемая версия: {1}</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Безымянный</value>
+  </data>
+  <data name="UnusedFile" xml:space="preserve">
+    <value>Файл {0} не используется. Удалите его</value>
+  </data>
+  <data name="UploadError" xml:space="preserve">
+    <value>Ошибка при отправке</value>
+  </data>
+  <data name="UploadSuccess" xml:space="preserve">
+    <value>Объект Мастерской успешно создан</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="WorkshopItemCreationError" xml:space="preserve">
+    <value>Не удалось создать объект в Мастерской</value>
+  </data>
+  <data name="WorkshopItemsLoadError" xml:space="preserve">
+    <value>Ошибка загрузки объектов Мастерской</value>
+  </data>
+  <data name="WorkshopItemUpdate" xml:space="preserve">
+    <value>Обновление объекта</value>
+  </data>
+  <data name="WrongBrackets" xml:space="preserve">
+    <value>Некорректная расстановка скобок</value>
+  </data>
+  <data name="XmlFilesFilter" xml:space="preserve">
+    <value>Файлы вопросов (*.xml) | *.xml</value>
+  </data>
+  <data name="XpsFiles" xml:space="preserve">
+    <value>Документы XPS</value>
+  </data>
+  <data name="YamlFiles" xml:space="preserve">
+    <value>YAML файлы</value>
+  </data>
+  <data name="YamlFilesFilter" xml:space="preserve">
+    <value>YAML файлы (*.yaml) | *.yaml</value>
+  </data>
+  <data name="YourAnswer" xml:space="preserve">
+    <value>Ваш ответ?</value>
+  </data>
+  <data name="YourThemes" xml:space="preserve">
+    <value>Ваши темы:</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="EmptyPreviewWarning" xml:space="preserve">
+    <value>У вашего пакета отсутствует превью</value>
+  </data>
+</root>
